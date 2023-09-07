@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "{{a..e},{m..q}}" | tr "" "\n" | grep -v "oo"
+echo {a..e}{m..q} | tr "" "\n" | grep -v "oo"
